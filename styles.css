@@ -1,0 +1,41 @@
+.container{
+    position: absolute;
+    left: 20%;
+    top: 5%;
+}
+
+h1{
+    margin-bottom: 40px; 
+    text-align: center;
+}
+
+#field{
+    width: 640px;
+    height: 640px;
+    box-sizing: content-box;
+    border: 1px solid black;
+}
+
+#field::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.chess-block{
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+
+.bg-black{
+    background: black;
+}
+.active{
+    background: blue;
+}
+.green{
+    background: green;
+}
+
+
